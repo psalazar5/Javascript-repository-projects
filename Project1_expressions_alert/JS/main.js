@@ -15,7 +15,8 @@ document.write(
     "-Dr. Seuss"
 );
 
-var C = "Concatenated" + "String";
+var C =
+  "This is the beginning of the string" + "and this is the end of the string";
 document.write(C);
 
 var Family = "The Arezzinis",
