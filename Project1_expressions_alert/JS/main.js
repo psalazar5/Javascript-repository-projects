@@ -1,5 +1,5 @@
-window.alert("Hello, World!");
-var A = "This is a string";
+window.alert("Hello, World!"); //alert window to pop up on website
+var A = "This is a string"; //named a variable to A
 document.write(A);
 document.write("<br></br>");
 
@@ -10,7 +10,7 @@ document.write("<br>");
 document.write(
   'Lisa told Bart ," Knock it off, Bart! Or I\'ll tell dad!"<br> "Eat my shorts!" Bart responded.'
 );
-document.write("<br>");
+document.write("<br>"); //documen.write displays a variable for instance
 document.write(
   '"Be who you are and say what you feel,' +
     "because those who mind don't matter and those who matter don't mind.\"" +
@@ -26,7 +26,7 @@ var Family = "The Arezzinis",
   Mom = "Hermoine",
   Daughter = "Penny",
   Son = "Zorro";
-document.write(Dad);
+document.write(Dad); //document.write dad displayed what the value of "dad" which is "Jeremiah"
 
 document.write(3 + 3);
 
