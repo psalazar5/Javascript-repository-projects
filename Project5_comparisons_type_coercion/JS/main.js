@@ -68,5 +68,5 @@ document.write("<br>");
 //!(not) operator checks whether or not something is true. If __ is false, "true" will be returned.
 function not_Function() {
   document.getElementById("Not").innerHTML = !(20 > 10); //This would return False, which is basically returning the opposite.
-  document.write("<br>");
 } //If i wrote a false statement like 5 > 10 then true would be returned.
+document.write("<br>");
