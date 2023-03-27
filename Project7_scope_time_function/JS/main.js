@@ -54,7 +54,7 @@ document.write("<br>");
 // if statement step 147 Error
 //gonna ask for explaination
 function getFullYear() {
-  if (new FullYear().getDate() < 1) {
+  if (new Date().getFullYear() < 2024) {
     document.getElementById("Yes").innerHTML = "Breh";
   }
 }
