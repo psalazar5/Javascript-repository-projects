@@ -1,3 +1,15 @@
+let slideIndex = 1; //created variable slide index
+showSlides(slideIndex);
+
+//Next/previous controls
+function plusSlides(n) {
+  showSlides((slideIndex += n)); //next / previous button either increasing or decreasing
+}
+
+//Thumbail image controls
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -21,17 +33,4 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "block"; //Making the image display
   dots[slideIndex - 1].className += " active"; // making the dots active based on whatever image u are on
-}
-
-let slideIndex = 1; //created variable slide index
-showSlides(slideIndex);
-
-//Next/previous controls
-function plusSlides(n) {
-  showSlides((slideIndex += n)); //next / previous button either increasing or decreasing
-}
-
-//Thumbail image controls
-function currentSlide(n) {
-  showSlides((slideIndex = n));
 }
