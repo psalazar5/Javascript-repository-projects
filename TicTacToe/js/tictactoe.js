@@ -99,39 +99,39 @@ function checkWinConditions() {
     drawWinLine(100, 508, 510, 90);
   }
   // X 0, 4, 8 condition
-  else if (arrayIncludes("0X", "4x", "8x")) {
+  else if (arrayIncludes("0X", "4X", "8X")) {
     drawWinLine(100, 100, 520, 520);
   }
   //O 0, 1, 2 condition
-  else if (arrayIncludes("0O", "10", "20")) {
+  else if (arrayIncludes("0O", "1O", "2O")) {
     drawWinLine(50, 100, 558, 100);
   }
   //O 3, 4, 5 condition
-  else if (arrayIncludes("30", "40", "50")) {
+  else if (arrayIncludes("3O", "4O", "5O")) {
     drawWinLine(50, 304, 558, 304);
   }
   // O 6, 7, 8 condition.
-  else if (arrayIncludes("60", "70", "80")) {
+  else if (arrayIncludes("6O", "7O", "8O")) {
     drawWinLine(50, 508, 558, 508);
   }
   //O 0, 3, 6 condition.
-  else if (arrayIncludes("0O", "30", "60")) {
+  else if (arrayIncludes("0O", "3O", "6O")) {
     drawWinLine(100, 50, 100, 558);
   }
   //O 1, 4, 7 condition.
-  else if (arrayIncludes("10", "40", "70")) {
+  else if (arrayIncludes("1O", "4O", "7O")) {
     drawWinLine(304, 50, 304, 558);
   }
   //O 2, 5, 8 condition
-  else if (arrayIncludes("20", "50", "80")) {
+  else if (arrayIncludes("2O", "5O", "8O")) {
     drawWinLine(508, 50, 508, 558);
   }
   //O 6, 4, 2 condition
-  else if (arrayIncludes("60", "40", "20")) {
+  else if (arrayIncludes("6O", "4O", "2O")) {
     drawWinLine(100, 508, 510, 90);
   }
   //O 0, 4, 8 condition.
-  else if (arrayIncludes("0O", "40", "80")) {
+  else if (arrayIncludes("0O", "4O", "8O")) {
     drawWinLine(100, 100, 520, 520);
   }
   //This condition checks for a tie. If none of the above conditions are met and 9 squares are selected the code exectues
@@ -259,16 +259,16 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
     clear();
     resetGame();
   }, 1000);
-  //This function resets the game in the event of a tie or a win.
-  function resetGame() {
-    //This for loop iterates through each HTML square element.
-    for (let i = 0; i < 9; i++) {
-      //This variable gets the HTML element i.
-      let square = document.getElementById(String(i));
-      //This removes our elements backgroundImage.
-      square.style.backgroundImage = "";
-    }
-    //This resets our array so it is empy and we can start over.
-    selectedSquares = [];
+}
+//This function resets the game in the event of a tie or a win.
+function resetGame() {
+  //This for loop iterates through each HTML square element.
+  for (let i = 0; i < 9; i++) {
+    //This variable gets the HTML element i.
+    let square = document.getElementById(String(i));
+    //This removes our elements backgroundImage.
+    square.style.backgroundImage = "";
   }
+  //This resets our array so it is empy and we can start over.
+  selectedSquares = [];
 }
