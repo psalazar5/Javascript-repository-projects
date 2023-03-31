@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>some</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <p id="K"></p>
+    <p id="demo"></p>
+    <script>
+      //arrow method
+      var car;
+      car = (val) => "these are my favorite people: " + val;
+      document.getElementById("K").innerHTML = car(
+        " Jheremy, Chuck, and Justin"
+      );
+      //some method ends and does not check the remaining value
+      var ages = [1, 2, 3, 4, 5, 10];
+      //using arrow func to pass in a parameter of age
+      document.write("<br>");
+
+      checkAge = (age) => age >= 18;
+
+      function myFunction() {
+        //use the.some() to iterate through the array of ages and dispay result
+        document.getElementById("demo").innerHTML = ages.some(checkAge);
+      }
+    </script>
+  </body>
+</html>
