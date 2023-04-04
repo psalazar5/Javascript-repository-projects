@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practice 10</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./CSS&JS for React_4/css.css" />
+  </head>
+  <body class="fade-out">
+    <h1 style="font-size: 2vw">This is h1 heading</h1>
+
+    <p style="font-size: 5vw">
+      Use the "vw" unit when sizing the text. 10vw will set the size to 10% of
+      the viewport width
+    </p>
+
+    <p>
+      View port is the browser window size. 1vw = 1% of view port width. If the
+      the viewport is 50 cm wide, 1vw is 0.5 cm
+    </p>
+
+    <h1>This is another piece of text thats going to fade:</h1>
+    <script>
+      // document.body.classList.add("fade-out");
+
+      window.addEventListener("DOMContentLoaded", () => {
+        document.body.classList.remove("fade-out");
+      });
+    </script>
+  </body>
+</html>
