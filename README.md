@@ -1,4 +1,5 @@
-<h1>JavaScript</h1>
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+<hr>
 These are small projects I made using JavaScript html and css.
 
 <h1>Projects</h1>
