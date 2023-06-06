@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background: red;
+        position: relative;
+        animation: mymove 5s infinite;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      }
+
+      @keyframes mymove {
+        from {
+          top: 0px;
+        }
+        to {
+          top: 200px;
+        }
+      }
+
+      @keyframes zoominoutsinglefeatured {
+        0% {
+          transform: scale(1, 1);
+        }
+        50% {
+          transform: scale(1.2, 1.2);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+
+      img {
+        animation: zoominoutsinglefeatured 15s forwards;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>the @keyframes Rule</h1>
+    <div></div>
+
+    <img src="./imgs/dog.jpg" class="center" />
+  </body>
+</html>

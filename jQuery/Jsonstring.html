@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="myDog"></p>
+    <p id="myDog2"></p>
+    <p id="myDog3"></p>
+    <!--the ondblclick event occurs when the user double clicks on an element.-->
+    <p id="example" ondblclick="myFunction()">Double click this paragraph</p>
+
+    <script>
+      /*Javascript dictionary object*/
+      var dog = { name: "Dax", breed: "Great Pyrenees", color: "White" };
+      /*convert javascript objects to string format*/
+      var JSONstring = JSON.stringify(dog);
+      document.getElementById("myDog").innerHTML = JSONstring;
+    </script>
+
+    <script>
+      //Parse method takes a JSON string and converts it to a JavaScript object.
+      //When the data is requested, it is then reverted from a string format back to an object on the webpage.
+      /*This is a JSON string variable*/
+      var dog = '{"name": "Dax", "breed": "Great Pyrenees", "color": "White"}';
+      /*Convert JSON strings to JavaScript objects*/
+      var JSONstring = JSON.parse(dog);
+      document.getElementById("myDog2").innerHTML =
+        JSONstring.name + " the " + JSONstring.breed;
+    </script>
+
+    <script>
+      //Local storage is a JavaScript method that will store data locally in the web browser, without the need for utilizing a separate database.
+      /*set the data as a key/value pair to be saved locally in your browser*/
+      localStorage.setItem("Name", "Dax");
+      /*then use the key "Name" to return its value "Dax"*/
+      document.getElementById("myDog3").innerHTML =
+        localStorage.getItem("Name");
+    </script>
+
+    <script>
+      //This code makes it so that when the paragraph element is double clicked by the user, the paragraph text changes to red.
+      function myFunction() {
+        var X = "YAY";
+        document.getElementById("example").innerHTML = X;
+      }
+    </script>
+  </body>
+</html>

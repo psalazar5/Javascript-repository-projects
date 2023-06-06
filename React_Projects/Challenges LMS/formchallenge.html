@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practice</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <form
+      action="/action_page.php"
+      name="myForm"
+      onsubmit="return validateForm()"
+      method="post"
+    >
+      <label for="pnumber">Phone Number:</label><br />
+      <input type="text" id="pnumber" value="" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script>
+      function validateForm() {
+        let x = document.forms["myForm"]["pnumber"].value;
+        if (x == "") {
+          alert("Phone number must be filled out");
+          return false;
+        }
+      }
+    </script>
+  </body>
+</html>

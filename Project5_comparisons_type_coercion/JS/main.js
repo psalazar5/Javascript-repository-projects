@@ -39,7 +39,7 @@ document.write("<br>");
 //this returns true
 P = 82;
 O = "82";
-document.write(X === Y);
+document.write(P === O);
 document.write("<br>");
 //This displays false. Why? Because the data types (number and string respectively) were not the same.
 A = "Magnus";
@@ -63,7 +63,7 @@ document.write(5 > 10 || 10 > 4);
 document.write("<br>");
 document.write(5 > 10 || 10 > 20);
 document.write("<br>");
-//false here because neither is true, hence || checks to see if one is true out of the two and is false is both are false.
+//false here because neither is true, hence || checks to see if one is true out of the two and is false bc both are false.
 
 //!(not) operator checks whether or not something is true. If __ is false, "true" will be returned.
 function not_Function() {

@@ -1,12 +1,12 @@
 function count_to_ten() {
   var Digit = "";
   var X = 1;
-  while (X < 11) {
+  while (X < 20) {
     //while this is less than 11, increment 1
     Digit += "<br>" + X; // Digit is empty, breaks line, then starts at 1 and increments by 1
     X++;
   }
-  document.getElementById("Counting_to_Ten").innerHTML = Digit;
+  document.getElementById("Counting_to_Ten").innerHTML = "Damages Incurred";
   console.log(X);
 }
 
@@ -35,6 +35,7 @@ var Instruments = [
   "Violin",
   "Trumpet",
   "Flute",
+  "urmom",
 ];
 var Content = "";
 var Y;
@@ -46,6 +47,7 @@ function for_Loop() {
   }
   document.getElementById("List_of_Instruments").innerHTML = Content;
 }
+
 //Arrays and objects
 function cat_pics() {
   var Cat_Picture = []; //explaining the variables we are about to name below
@@ -54,7 +56,7 @@ function cat_pics() {
   Cat_Picture[2] = "eating";
   Cat_Picture[3] = "purring";
   document.getElementById("Cat").innerHTML =
-    "In this picture, the cat is " + Cat_Picture[2] + ".";
+    "In this picture, the cat is " + Cat_Picture[1] + ".";
   //^ this would display "In this picture, the cat is eating."
 }
 //Array and objects

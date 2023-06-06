@@ -23,6 +23,9 @@ function Color_Function() {
     case "Purple":
       Color_Output = "Purple" + Color_String;
       break;
+    case "urmom":
+      Color_Output = "urmom" + " is fake asf";
+      break;
     default:
       Color_Output =
         "Please enter a color exactly as written on the above list.";
@@ -31,11 +34,11 @@ function Color_Function() {
 }
 
 function Hello_World_Function() {
-  //
   var A = document.getElementsByClassName("Click");
   A[0].innerHTML = "The text has changed!"; //We have set the index value of variable A to 0
 } //meaning it will now be displayed in the first element with the class “Click”
 //(once the button is clicked)
+
 var c = document.getElementById("ID_Name");
 var ctx = c.getContext("2d");
 //Create gradient
