@@ -5,18 +5,18 @@
 <li>Calculator</li>
 </ul>
 
-<h2>Pizza-menu</h2>
+<h2><a href = "https://github.com/psalazar5/Javascript-repository-projects/tree/main/Pizza_Project">Pizza-menu</a></h2>
 
 <p>This project is a menu used to order pizza. It contains various selections of toppings with sizes from personal to xl <br>
 It then takes the input information and calculates the price for the order</p>
 
-<h2>Tic-tac-toe Game</h2>
+<h2><a href="https://github.com/psalazar5/Javascript-repository-projects/tree/main/TicTacToe">Tic-tac-toe Game</a></h2>
 
 <p>This is a classic tic-tac-toe game. Randomly rolls dice to select which of the two players goes first.<br>
  Users can decide which token each player wants to use. <br>
  The winner is celebrated with music and flashing lights with the line going through the winners O or X.</p>
 
- <h2>Calculator</h2>
+ <h2><a href="https://github.com/psalazar5/Javascript-repository-projects/tree/main/Calculator%20Project">Calculator</a>></h2>
  <p>Basic 4 function calculator. Uses multiplication, division, subtraction and addition on a sleek web version calculator.</p>
  
 <h2> What this knowledge helped me with: </h2>
