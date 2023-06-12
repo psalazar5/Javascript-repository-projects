@@ -16,7 +16,7 @@ It then takes the input information and calculates the price for the order</p>
  Users can decide which token each player wants to use. <br>
  The winner is celebrated with music and flashing lights with the line going through the winners O or X.</p>
 
- <h2><a href="https://github.com/psalazar5/Javascript-repository-projects/tree/main/Calculator%20Project">Calculator</a>></h2>
+ <h2><a href="https://github.com/psalazar5/Javascript-repository-projects/tree/main/Calculator%20Project">Calculator Project</a></h2>
  <p>Basic 4 function calculator. Uses multiplication, division, subtraction and addition on a sleek web version calculator.</p>
  
 <h2> What this knowledge helped me with: </h2>
